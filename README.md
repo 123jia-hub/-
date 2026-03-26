@@ -119,3 +119,111 @@ c.render("equipment_metrics_3d.html")
 
 # 在notebook中显示
 c.render_notebook()
+
+
+
+
+## # 工业故障预测系统 🏭
+
+> 基于工业设备传感器数据的故障预测与可视化分析系统
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+## 📖 项目简介
+
+本项目是一个工业设备故障预测与分析系统，通过对风机、压缩机等工业设备的温度、压力、振动等传感器数据进行采集、清洗和深度分析，利用 **3D 可视化技术**直观展示设备运行状态，为设备维护和故障预警提供数据支持。
+
+### ✨ 核心特性
+
+- 🔍 **数据预处理**：智能处理缺失值和异常值
+- 📊 **多维度指标计算**：温度、压力、振动的统计分析
+- 🎨 **3D 可视化**：交互式 3D 柱状图，支持鼠标拖动和缩放
+- 🎬 **动态演示**：24 小时设备状态变化动画
+- ⚡ **高性能**：使用 Pandas groupby 优化，比传统循环快数十倍
+### 2️⃣ 3D 柱状图可视化 🎨
+
+**特性**：
+- 🖱️ 鼠标左键拖动：360°旋转查看
+- 🔍 鼠标滚轮：自由缩放
+- 🔄 自动旋转展示
+- 🎨 热力图颜色映射
+
+**交互效果**：
+- 对比多个设备的不同指标
+- 直观展示设备间的性能差异
+- 支持工具提示查看详细数值
+
+### 3️⃣ 时间轴动画演示 🎬
+
+**功能**：
+- ⏯️ 自动播放 24 小时数据变化
+- 📍 手动拖动时间轴查看特定时刻
+- 🎯 追踪单个设备的全天运行轨迹
+- 📈 观察温度、压力等参数的时序变化
+
+### 4️⃣ 多指标综合分析
+
+同时展示：
+- 平均温度 vs 最高温度
+- 平均压力（放大 10 倍）
+- 平均振动（放大 100 倍）
+- 颜色梯度显示数值范围
+
+---
+
+## 🤝 贡献指南
+
+欢迎参与项目开发！
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启 Pull Request
+
+---
+
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
+---
+
+## 👨‍💻 作者
+
+**[你的名字]** 
+- GitHub: [@你的用户名](https://github.com/你的用户名)
+- 专业背景：工业过程自动化
+- 技术栈：数据分析、机器学习、工业智能化
+
+---
+
+## 📮 联系方式
+
+如有问题或建议，请通过以下方式联系：
+- 提交 Issue
+- 发送邮件至：your.email@example.com
+
+---
+
+## 🙏 致谢
+
+感谢以下开源项目：
+- [PyECharts](https://pyecharts.org/) - 强大的 Python 可视化库
+- [Pandas](https://pandas.pydata.org/) - 数据分析利器
+- [Jupyter](https://jupyter.org/) - 交互式开发环境
+
+---
+
+<div align="center">
+
+**如果这个项目对你有帮助，请给一个 ⭐ Star！**
+
+Made with ❤️ by [你的名字]
+
+</div>
+
+
+   
