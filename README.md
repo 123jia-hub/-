@@ -67,9 +67,6 @@ from pyecharts.charts import Bar3D
 from pyecharts import options as opts
 import pandas as pd
 
-# 假设您已经有了features_df DataFrame
-# features_df = pd.DataFrame(features)  # 您已有的代码
-
 # 准备3D柱状图数据
 data = []
 for index, row in features_df.iterrows():
@@ -123,7 +120,7 @@ c.render_notebook()
 
 
 
-## # 工业故障预测系统 🏭
+## # 工业故障预测分析🏭
 
 > 基于工业设备传感器数据的故障预测与可视化分析系统
 
@@ -157,8 +154,7 @@ c.render_notebook()
 
 ### 3️⃣ 时间轴动画演示 🎬
 
-**功能**：
-- ⏯️ 自动播放 24 小时数据变化
+
 - 📍 手动拖动时间轴查看特定时刻
 - 🎯 追踪单个设备的全天运行轨迹
 - 📈 观察温度、压力等参数的时序变化
@@ -170,60 +166,6 @@ c.render_notebook()
 - 平均压力（放大 10 倍）
 - 平均振动（放大 100 倍）
 - 颜色梯度显示数值范围
-
----
-
-## 🤝 贡献指南
-
-欢迎参与项目开发！
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
----
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
-
----
-
-## 👨‍💻 作者
-
-**[你的名字]** 
-- GitHub: [@你的用户名](https://github.com/你的用户名)
-- 专业背景：工业过程自动化
-- 技术栈：数据分析、机器学习、工业智能化
-
----
-
-## 📮 联系方式
-
-如有问题或建议，请通过以下方式联系：
-- 提交 Issue
-- 发送邮件至：your.email@example.com
-
----
-
-## 🙏 致谢
-
-感谢以下开源项目：
-- [PyECharts](https://pyecharts.org/) - 强大的 Python 可视化库
-- [Pandas](https://pandas.pydata.org/) - 数据分析利器
-- [Jupyter](https://jupyter.org/) - 交互式开发环境
-
----
-
-<div align="center">
-
-**如果这个项目对你有帮助，请给一个 ⭐ Star！**
-
-Made with ❤️ by [你的名字]
-
-</div>
 
 
    
